@@ -1,0 +1,65 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 96%;
+  margin: 0px auto;
+}
+.search_div {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+.search_div p {
+  margin: 0%;
+}
+#Search {
+  width: 350px;
+}
+.sec_div div[class$="_div"] {
+  background: linear-gradient(to left, rgb(100, 230, 200), rgba(100, 230, 200));
+  height: 90px;
+  margin: 4px 0px;
+  display: inline-block;
+  text-align: center;
+}
+.sec_div div * {
+  font-weight: bold;
+}
+.left_div {
+  width: 39%;
+  float: left;
+  font-size: 16px;
+}
+.left_div * {
+  margin: 1%;
+}
+.center_div {
+  width: 21.7%;
+  float: none;
+  font-size: 14px;
+}
+.center_div * {
+  margin: 0.8%;
+}
+.right_div {
+  width: 39%;
+  float: right;
+  font-size: 14px;
+  margin: 0.2%;
+}
+.right_div * {
+  margin: 0.2%;
+}
+.right_div .btn {
+  margin-right: 16px;
+}
+footer {
+  margin-top: 120px;
+}
+footer p {
+  text-align: center;
+  clear: both;
+  font-size: 12px;
+}
